@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
   const char * ruta = argv[1]; //Toma la ruta que llega como parametro
   int cantidad_nombres;
   cantidad_nombres = contarArchivos(ruta);
-  printf("Estudiante_1: 1510074 \n");
+  printf("Estudiante_1: 201510074 \n");
   printf("Total archivos: %d \n", cantidad_nombres);
   char **my_array = buildArray (ruta, cantidad_nombres);
    if (!my_array) {
